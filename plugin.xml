@@ -24,7 +24,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-plugin-local-notification"
-        version="0.9.0-beta.3">
+        version="0.9.0-beta.3-androidx">
 
     <name>LocalNotification</name>
 
@@ -44,7 +44,7 @@
         <engine name="cordova-plugman" version=">=4.3.0"  />
         <engine name="cordova-android" version=">=6.0.0"  />
         <engine name="cordova-windows" version=">=4.2.0"  />
-        <engine name="android-sdk"     version=">=26" />
+        <engine name="android-sdk"     version=">=29" />
         <engine name="apple-ios"       version=">=10.0.0" />
     </engines>
 
@@ -87,7 +87,7 @@
 
     <!-- android -->
     <platform name="android">
-        <framework src="com.android.support:support-v4:26.+" />
+        <framework src="androidx.legacy:legacy-support-v4:1.0.0" />
         <framework src="src/android/build/localnotification.gradle" custom="true" type="gradleReference"/>
 
         <config-file target="res/xml/config.xml" parent="/*">

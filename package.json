@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-local-notification",
-  "version": "0.9.0-beta.3",
+  "version": "0.9.0-beta.3-androidx",
   "description": "Schedules and queries for local notifications",
   "cordova": {
     "id": "cordova-plugin-local-notification",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/katzer/cordova-plugin-local-notifications.git"
+    "url": "git+https://github.com/tzzee/cordova-plugin-local-notifications.git"
   },
   "keywords": [
     "appplant",
@@ -39,7 +39,7 @@
     },
     {
       "name": "android-sdk",
-      "version": ">=26"
+      "version": ">=29"
     },
     {
       "name": "apple-ios",
@@ -51,5 +51,5 @@
   "bugs": {
     "url": "https://github.com/katzer/cordova-plugin-local-notifications/issues"
   },
-  "homepage": "https://github.com/katzer/cordova-plugin-local-notifications#readme"
+  "homepage": "https://github.com/tzzee/cordova-plugin-local-notifications#readme"
 }
